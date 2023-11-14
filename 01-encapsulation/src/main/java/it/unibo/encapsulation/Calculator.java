@@ -40,9 +40,9 @@ public class Calculator {
         return updateStatus(n1 / n2);
     }
 
-    public static void printCalculatorStatus(final Calculator calc) {
-        System.out.println("operations performed: " + calc.operationsPerformed);
-        System.out.println("last result" + calc.lastResult + "\n");
+    public static void printCalculatorStatus() {
+        System.out.println("operations performed: " + this.operationsPerformed);
+        System.out.println("last result" + this.lastResult + "\n");
     }
 
 }
